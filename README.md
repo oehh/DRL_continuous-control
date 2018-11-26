@@ -35,5 +35,4 @@ The task is episodic, and in order to solve the environment,  the agent must get
 
 Go to `Continuous_Control.ipynb` for training and running the trained agent. 
 
-This files references to a feed-forward neural network (see model.py) and to the agent (see ddpg_agent.py). 
-# DRL_navigation
+This files references to a feed-forward neural network (see model.py) and to the agent (see ddpg_agent.py).
