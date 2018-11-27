@@ -19,6 +19,28 @@ For this project, there are two separate versions of the Unity environment, wher
 
 The task is episodic, and in order to solve the environment,  the agent must get an average score of +30 over 100 consecutive episodes.
 
+### Dependencies
+
+To set up your python environment to run the code in this repository, follow the instructions below.
+
+Create (and activate) a new environment with Python 3.6.
+
+Linux or Mac:
+conda create --name drlnd python=3.6
+source activate drlnd
+Windows:
+conda create --name drlnd python=3.6 
+activate drlnd
+Follow the instructions in this repository to perform a minimal install of OpenAI gym.
+
+Next, install the classic control environment group by following the instructions here.
+Then, install the box2d environment group by following the instructions here.
+Clone the repository (if you haven't already!), and navigate to the python/ folder. Then, install several dependencies.
+
+git clone https://github.com/udacity/deep-reinforcement-learning.git
+cd deep-reinforcement-learning/python
+pip install .
+
 ### Getting Started
 
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
